@@ -1,0 +1,159 @@
+body{
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    color: white;
+    font-family: Calibri;
+    font-size: 22px;
+    height: 345px;
+    min-width: 703px;
+}
+
+#home{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/Home.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	margin-top: -40px;
+	margin-left: 100px;
+}
+#new{
+margin-top: 100px;
+}
+#ruls{
+margin-top: 220px;
+}
+#doc{
+margin-top: 340px;
+}
+#slide{
+    width: 70%;
+    margin-left: -200%;
+    margin-top: 20px;
+    position: absolute;
+    -webkit-transition:  1s ease-out ;
+     -moz-transition:  1s ease-out ;
+     -o-transition:  1s ease-out ;
+     transition:  1s ease-out ;
+}
+#center{
+    margin-top: 70px;
+        -webkit-transition:  1s ease-out ;
+     -moz-transition:  1s ease-out ;
+     -o-transition:  1s ease-out ;
+     transition:  1s ease-out ;
+}
+.btn, .theme{
+    position: absolute;
+    margin-left: 20px;
+    width: 20%;
+    opacity: 1;
+    height: 50px;
+    border-radius: 30px;
+    padding-top: 3px;
+    background-color: #162247;
+    font-size:26px;
+    text-align: center;
+    vertical-align: middle;
+    border: solid #162247 2px;
+    -webkit-transition: 1s ease-out ;
+     -moz-transition:  1s ease-out ;
+     -o-transition:  1s ease-out ;
+     transition:  1s ease-out ;
+     color: white;
+}
+
+.btn:hover, #options select:hover{
+    background-color: white;
+    color: #162247;
+    -webkit-transition:  1s ease-out ;
+     -moz-transition:  1s ease-out ;
+     -o-transition:  1s ease-out ;
+     transition:  1s ease-out ;
+     cursor: pointer;
+}
+
+
+
+#lab{
+	display: block;
+	position: absolute;
+	margin-left: -200%;
+	margin-top: -45px;
+	width: 1000px;
+    height: 1000px;
+	 -webkit-transition: 1s ease-out ;
+     -moz-transition:  1s ease-out ;
+     -o-transition:  1s ease-out ;
+     transition:  1s ease-out ;
+
+}
+#options{
+	position: absolute;
+	display: block;
+	width: 80%;
+	margin-left: -200%;
+	 -webkit-transition: 1s ease-out ;
+     -moz-transition:  1s ease-out ;
+     -o-transition:  1s ease-out ;
+     transition:  1s ease-out ;
+}
+#options h1{
+	float: left;
+	width: 60%;
+}
+#options select, .theme{
+	margin-top: 20px;
+	width: 80px;
+	height: 80px;
+	font-size: 30px;
+}
+.blocks{
+	display:inline-block;
+	margin-bottom: -7px;
+}
+
+.theme{
+	position: relative;
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+#red{
+	background-color: #7D0508;
+}
+#blue{
+	background-color: #440B41;
+}
+#black{
+	background-color: #000000;
+}
+.lvl, .rating, .record{
+	position: absolute;
+        top: 10px;
+	font-size: 30px;
+}
+.lvl{
+	left: 10%;
+}
+.rating{
+        left: 30%;
+}
+
+.record{
+        left: 65%;
+}
+#timer{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -40px;
+    width: 100px;
+    height: 60px;
+    padding: 10px;
+    
+}     
